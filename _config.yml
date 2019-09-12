@@ -18,7 +18,7 @@ email: nosk@ncit.edu.np
 description: > # this means to ignore newlines until "baseurl:"
   Celebrating Software Freedom Day 2019 with NOSK. 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://nosk.ncit.edu.np" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://nosk.ncit.edu.np" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 encoding: UTF-8
