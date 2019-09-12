@@ -16,6 +16,16 @@ description: >
     <link as=font crossorigin=anonymous href="{{ '/fonts/Inter-Bold.woff2' | prepend: site.baseurl }}" rel=preload type="font/woff2" />
     <link href="{{ '/dist/stylesheets/app.css' | prepend: site.baseurl }}" rel=stylesheet />
     <script src="{{ '/dist/javascripts/index.js' | prepend: site.baseurl }}"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-147706138-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-147706138-1');
+</script>
+
 </head>
   <body>
         {% include header.html %}
