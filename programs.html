@@ -1,0 +1,66 @@
+---
+layout: base
+permalink: /programs/
+---
+
+<div class="t-light">
+    <div class="o-bleed o-bg">
+      <div class="o-full">
+        <h1 class="u-type-h2">Programs
+        
+        </h1>
+      </div>
+      <div class="o-row u-no-wrap o-row--mobile-break-reverse ">
+        
+          <div class="o-under-half o-under-half--to-full o-under-half--overlay">
+              <p class="u-type-h5">Entertainment + Technology<br />July 18&ndash;20, 2019 @ NCIT</p>
+            </div>
+        
+  
+        <div class="o-over-half o-over-half--right">
+          
+          
+            <div class="u-sixteen-nine">
+              <iframe class="c-aspect-inner" src="https://www.youtube.com/embed/3vPCpQTJkYo?Version=3&autoplay=1&controls=0&mute=1&loop=1&modestbranding=1&playlist=3vPCpQTJkYo" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
+          
+        </div>
+      </div>
+      <div class="o-text-column u-mb5 u-mt5">
+          <h2 class="u-type-h4">Get Out Smarter!</h2>
+          <p><strong>NEXT</strong> aims to give a chance to start, culminate new ideas and showcase students' technical expertise on different fields. The three-day grandeur will involve a series of competitions, workshops, seminars, boot camps and guest lectures by some eminent personalities.</p>
+          <p>The technical events included in this event are as follows:</p></div>
+</div>
+</div>
+
+ 
+ <br /><br />
+
+ <div class="t-black">
+  <div class="o-bleed o-bg o-padded-section u-pb15">
+    <div class="o-full js-card-area" data-theme="t-light" data-user-theme="t-dark">
+       <div class="o-card-list">
+       <div class="o-card-list__item o-card-list__item--lead-in">
+             <div class="c-card c-card--lead-in">
+                <div class="c-card__inner">
+                   <h4 class="c-card__heading">Excited?<br/><br/>Events at NEXT 2019</h4>
+                </div>
+             </div>
+          </div>
+          {% assign events = site.event %}{% for event in events %} 
+          <a href="{{ event.readmore }}" class="c-link c-link--anim u-type-tiny">
+          <div class="o-card-list__item t-light" style="">
+             <div class="c-card">
+                <div class="c-card__inner">
+                   <div class="c-card__image" style="background-image: url(&quot;{{ event.image }}&quot;);"></div>
+                   <h4 class="c-card__heading">{{ event.title }}</h4>
+                   <!-- <p class="c-card__subline">{{ organizer.designation }}</p>-->
+                </div>
+             </div>
+          </div>
+          </a>
+          {% endfor %} 
+       </div>
+    </div>
+ </div>
+</div>

@@ -1,0 +1,66 @@
+---
+layout: base
+permalink: /register-for-event/
+---
+
+<div class="t-light">
+    <div class="o-bleed o-bg">
+      <div class="o-full">
+        <h1 class="u-type-h2">Register for Event
+        
+        </h1>
+      </div>
+      <div class="o-row u-no-wrap o-row--mobile-break-reverse ">
+        
+          <div class="o-under-half o-under-half--to-full o-under-half--overlay">
+              <p class="u-type-h5">Win Prizes, Make History @ NEXT<br />July 18&ndash;20, 2019 @ NCIT</p>
+            </div>
+        
+  
+        <div class="o-over-half o-over-half--right">
+          
+          
+            <div class="u-ratio" style="padding-bottom: calc((711/1067)*100%);">
+                <div class="c-aspect-inner">
+                  <img src="https://images.unsplash.com/photo-1504355080015-bba52674577b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&h=600" class="u-responsive" alt="Register for event" />
+                </div>
+              </div>
+          
+        </div>
+      </div>
+      <div class="o-text-column u-mb5 u-mt5">
+
+</div>
+</div>
+
+ 
+ <br /><br />
+
+ <div class="t-black">
+  <div class="o-bleed o-bg o-padded-section u-pb15">
+    <div class="o-full js-card-area" data-theme="t-light" data-user-theme="t-dark">
+       <div class="o-card-list">
+       <div class="o-card-list__item o-card-list__item--lead-in">
+             <div class="c-card c-card--lead-in">
+                <div class="c-card__inner">
+                   <h4 class="c-card__heading">NEXT Events<br/><br/>Click on the event to register</h4>
+                </div>
+             </div>
+          </div>
+          {% assign events = site.event %}{% for event in events %} 
+          <a href="{{ event.readmore }}" class="c-link c-link--anim u-type-tiny">
+          <div class="o-card-list__item t-light" style="">
+             <div class="c-card">
+                <div class="c-card__inner">
+                   <div class="c-card__image" style="background-image: url(&quot;{{ event.image }}&quot;);"></div>
+                   <h4 class="c-card__heading">{{ event.title }}</h4>
+                   <!-- <p class="c-card__subline">{{ organizer.designation }}</p>-->
+                </div>
+             </div>
+          </div>
+          </a>
+          {% endfor %} 
+       </div>
+    </div>
+ </div>
+</div>

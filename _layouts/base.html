@@ -1,0 +1,26 @@
+---
+description: >
+  This layout can be used for any page requring access to the full width of the page, unconstrained by a grid.
+---
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=utf-8 />
+    <meta content="IE=edge" http-equiv=X-UA-Compatible />
+    <meta content="width=device-width, initial-scale=1" name=viewport />
+    <title>Software Freedom Day 2019 | NOSK</title>
+    <link as=font crossorigin=anonymous href="{{ '/fonts/Inter-Regular.woff2' | prepend: site.baseurl }}" rel=preload type="font/woff2" />
+    <link as=font crossorigin=anonymous href="{{ '/fonts/Inter-Medium.woff2' | prepend: site.baseurl }}" rel=preload type="font/woff2" />
+    <link as=font crossorigin=anonymous href="{{ '/fonts/Inter-SemiBold.woff2' | prepend: site.baseurl }}" rel=preload type="font/woff2" />
+    <link as=font crossorigin=anonymous href="{{ '/fonts/Inter-Bold.woff2' | prepend: site.baseurl }}" rel=preload type="font/woff2" />
+    <link href="{{ '/dist/stylesheets/app.css' | prepend: site.baseurl }}" rel=stylesheet />
+    <script src="{{ '/dist/javascripts/index.js' | prepend: site.baseurl }}"></script>
+</head>
+  <body>
+        {% include header.html %}
+      {{ content }}
+  
+	{% include footer.html %}
+  </body>
+</html>
