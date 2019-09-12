@@ -31,9 +31,9 @@
         </div>
         <nav aria-label=sitemap>
             <ul>
-                <li><a href="#speakers" class=js-smooth-scroll data-scroll=true>Speakers</a></li>
-                <li><a href="#venue" class=js-smooth-scroll data-scroll=true>Venue</a></li>
-                <li><a href="#sponsors" class=js-smooth-scroll data-scroll=true>Sponsors</a></li>
+                <li><a href="{{ '#speakers' | prepend: site.url }}" class=js-smooth-scroll data-scroll=true>Speakers</a></li>
+                <li><a href="{{ '#venue' | prepend: site.url }}" class=js-smooth-scroll data-scroll=true>Venue</a></li>
+                <li><a href="{{ '#sponsors' | prepend: site.url }}" class=js-smooth-scroll data-scroll=true>Sponsors</a></li>
                 <li><a href="{{ '/schedule' | prepend: site.baseurl }}">Schedule</a></li>
                 <li><a href="#" target=_blank>Register</a></li>
                 <li><a href="#">NOSKode</a></li>
