@@ -1,10 +1,10 @@
-# Class of 2020 Website
+# SFD 2019 | NOSK, Website
 
 
 
 The site is open source (here's all the code!).
 
-Submit [issues](https://github.com/Classof2020/classof2020.github.io/issues/new) and [pull requests](https://github.com/Classof2020/classof2020.github.io/compare/) for stories, site ideas or copy edits.
+Submit [issues](https://github.com/officialnosk/new/issues/new) and [pull requests](https://github.com/officialnosk/new/compare/) for stories, site ideas or copy edits.
 
 #### Goals
 
@@ -21,12 +21,7 @@ This site is made with [Jekyll](http://jekyllrb.com), an open source static site
 
 #### Fix/Edit Content
 
-If you see an error or a place where content should be improved or updated, just fork this repository to your account, make the change you'd like and then submit a pull request. If you're not able to make the change, file an [issue](https://github.com/Classof2020/classof2020.github.io/issues/new).
-
-#### Add Member to the Class
-
-If you know of a person that should be added to the member list that generates the matrix of avatars on the [Class](https://classof2020.github.io/class/) page: fork this repository, open the `_class/_TEMPLATE.md` file and follow the instructions therein carefully. Commit your change, git push and submit a pull request!
-
+If you see an error or a place where content should be improved or updated, just fork this repository to your account, make the change you'd like and then submit a pull request. If you're not able to make the change, file an [issue](https://github.com/officialnosk/new/issues/new).
 
 ## To Set up Locally
 
@@ -43,13 +38,9 @@ Should you face any problem, feel free to ping [Ashish](https://github.com/MegaM
 To copy the repository's files from here onto your computer and to view and serve those files locally, at your computer's command line type:
 
 ```bash
-git clone https://github.com/Classof2020/classof2020.github.io.git
-cd classof2020.github.io
+git clone https://github.com/officialnosk/new.git
+cd new
 bundle install
 jekyll serve
 ```
 Open `http://localhost:4000` in your browser
-
-
-## Issues
-Feel free to make a pull request for fixes and improvements to current website. For questions or problems on this repo come talk to us via the `NCIT SE 2016` group chat on [Facebook](https://www.facebook.com/groups/1005002246272217/) or open up an [issue](https://github.com/Classof2020/classof2020.github.io/issues/new), we'll do our best to help you out.
