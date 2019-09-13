@@ -1,6 +1,6 @@
 ---
 name: "Er. Dipesh Das"
-description:  GDG Birgunj Manager
+description:  Manager, GDG Birgunj 
 image: "/images/speaker-dipesh-das.jpg"
 link: https://www.linkedin.com/in/aaryadip/
 layout: profile
