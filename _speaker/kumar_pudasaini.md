@@ -1,6 +1,6 @@
 ---
 name: "Er. Kumar Pudasaini"
-description:  Network Expert
+description:  Network Engineer
 image: "/images/speaker-kumar-pudasaini.jpg"
 link: https://www.linkedin.com/in/kumar-pudashine-31203853/
 layout: profile
