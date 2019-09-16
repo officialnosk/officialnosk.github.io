@@ -1,8 +1,8 @@
 ---
-name: "Prof. Dr. Shashidhar Ram Joshi"
-description:  Professor at IOE
-image: "/images/speaker-shashidhar-joshi.jpg"
-link: https://www.linkedin.com/in/shashidhar-ram-joshi-13794a8b/
+name: "Sushil Kumar Sah"
+description:  "Kantipur Media Group"
+image: "/images/noimage.png"
+link: 
 layout: profile
 ---
 

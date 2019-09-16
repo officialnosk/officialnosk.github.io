@@ -2384,7 +2384,7 @@ p.speaker-name {
 }
 
 .sponsor-list a img {
-	filter: brightness(0.9);
+	filter: brightness(0.6);
 	height: auto;
 	opacity: .75;
 	position: relative;
@@ -2397,7 +2397,7 @@ p.speaker-name {
 	transition: all .2s
 }
 
-.sponsor-list a:hover svg {
+.sponsor-list a:hover img {
 	opacity: 1;
 	filter: brightness(1)
 }
