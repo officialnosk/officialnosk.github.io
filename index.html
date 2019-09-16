@@ -178,7 +178,8 @@ layout: base
           <div class="speakers section__contain__inner">
               <p aria-hidden=true class=speaker-type id=speaker-list-0>Tech talk speakers</p>
               <ul aria-labelledby=speaker-list-0 class=speaker-list>
-                  {% assign speakers = site.speaker %}{% for speaker in speakers %} 
+                  {% assign speakers = site.speaker %}{% for speaker in speakers %}
+                  {% if speaker.type == "tech" %} 
                   <li>
                       <figure class="parallelogram parallelogram--blue">
                           <svg width="100%" viewBox="0 0 248 296" fill=none xmlns="http://www.w3.org/2000/svg">
@@ -188,8 +189,25 @@ layout: base
                       <p class=speaker-name>{{ speaker.name }}</p>
                       <p class=speaker-description>{{ speaker.description }}</p>
                   </li>
+                  {% endif %}
                   {% endfor %} 
               </ul>
+              <p aria-hidden=true class=speaker-type id=speaker-list-0>Other speakers</p>
+              <ul aria-labelledby=speaker-list-0 class=speaker-list>
+                  {% assign speakers = site.speaker %}{% for speaker in speakers %}
+                  {% if speaker.type == "other" %} 
+                  <li>
+                      <figure class="parallelogram parallelogram--blue">
+                          <svg width="100%" viewBox="0 0 248 296" fill=none xmlns="http://www.w3.org/2000/svg">
+                              <path d="M80 0H248L168 296H0L80 0Z" fill="#3EB8FF" /> </svg>
+                          <a href="{{ speaker.link }}" class=image-link target=_blank aria-label="{{ speaker.name }}"><img src="{{ speaker.image }}" /></a>
+                      </figure>
+                      <p class=speaker-name>{{ speaker.name }}</p>
+                      <p class=speaker-description>{{ speaker.description }}</p>
+                  </li>
+                  {% endif %}
+                  {% endfor %} 
+              </ul>              
           </div>
       </div>
   </section>
