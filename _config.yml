@@ -27,7 +27,9 @@ collections:
   speaker:
     output: true
   sponsor:
-    output: true         
+    output: true
+  doer:
+    output: true               
 plugins:
   - jekyll-feed
   - jekyll-sitemap
