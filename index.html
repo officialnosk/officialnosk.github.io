@@ -420,18 +420,27 @@ layout: base
             </ul>
             <p aria-hidden=true class=sponsor-type id=sponsor-list-0>Bronze Sponsor</p>
             <ul aria-labelledby=sponsor-list-0 class=sponsor-list>
+            {% assign sponsors = site.sponsor %}{% for sponsor in sponsors %}
+            {% if sponsor.type == "bronze" %} 
               <li>
-                  <a href="https://www.vianet.com.np/" class="image-link sponsor-link--vianet" target=_blank aria-label=Vianet>
-<img src="{{ '/images/vianetlogo.png' | prepend: site.url }}" height="150%" alt="Vianet Logo" />                      </a>
+                  <a href="{{ sponsor.link }}" class="image-link" target=_blank aria-label={{ sponsor.name }}>
+                    <img src="{{ sponsor.image }}" height="150%" alt="{{ sponsor.name }} Logo" />                      
+                  </a>
               </li>
+            {% endif %}
+            {% endfor %}
           </ul>            
             <p aria-hidden=true class=sponsor-type id=sponsor-list-0>Other Sponsor</p>
             <ul aria-labelledby=sponsor-list-0 class=sponsor-list>
+            {% assign sponsors = site.sponsor %}{% for sponsor in sponsors %}
+            {% if sponsor.type == "other" %} 
               <li>
-                  <a href="https://www.facebook.com/NiitKathmanduCentre/" class="image-link sponsor-link--niit" target=_blank aria-label=NIIT>
-<img src="{{ '/images/niitlogo.jpg' | prepend: site.url }}" height="150%" alt="NIIT Logo" />                      </a>
+                  <a href="{{ sponsor.link }}" class="image-link" target=_blank aria-label={{ sponsor.name }}>
+<img src="{{ sponsor.image }}" height="150%" alt="{{ sponsor.name }} Logo" />                      </a>
               </li>
-          </ul>              
+            {% endif %}
+            {% endfor %}
+            </ul>              
           </div>
       </div>
   </section>
