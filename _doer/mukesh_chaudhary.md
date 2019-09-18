@@ -1,7 +1,7 @@
 ---
 name: Mukesh Kr. Chaudhary
 image: maker-mukesh-chaudhary.jpg
-email:
-link: https://www.facebook.com/willsir.maks
+email: krchaudharymukesh@protonmail.com
+link: https://www.linkedin.com/in/krchaudharymukesh/
 layout: makers
 ---
