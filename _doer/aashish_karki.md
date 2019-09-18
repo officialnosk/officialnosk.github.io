@@ -1,7 +1,7 @@
 ---
 name: Aashish Karki
-image: 
+image: maker-aashish-karki.jpg
 email: 
-link: 
+link: https://www.facebook.com/aashish.karki.1694059
 layout: makers
 ---
