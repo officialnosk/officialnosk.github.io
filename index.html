@@ -184,7 +184,11 @@ layout: base
                       <figure class="parallelogram parallelogram--blue">
                           <svg width="100%" viewBox="0 0 248 296" fill=none xmlns="http://www.w3.org/2000/svg">
                               <path d="M80 0H248L168 296H0L80 0Z" fill="#3EB8FF" /> </svg>
-                          <a href="{{ speaker.link }}" class=image-link target=_blank aria-label="{{ speaker.name }}"><img src="{{ speaker.image }}" /></a>
+                              {% if speaker.link %}
+                              <a href="{{ speaker.link }}" class=image-link target=_blank aria-label="{{ speaker.name }}">
+                                  {% else %}
+                                  <a href="#" class=image-link aria-label="{{ speaker.name }}">
+                                      {% endif %}<img src="{{ speaker.image }}" /></a>
                       </figure>
                       <p class=speaker-name>{{ speaker.name }}</p>
                       <p class=speaker-description>{{ speaker.description }}</p>
@@ -192,7 +196,7 @@ layout: base
                   {% endif %}
                   {% endfor %} 
               </ul>
-              <p aria-hidden=true class=speaker-type id=speaker-list-0>Other speakers</p>
+              <p aria-hidden=true class=speaker-type id=speaker-list-0>Opening speakers</p>
               <ul aria-labelledby=speaker-list-0 class=speaker-list>
                   {% assign speakers = site.speaker %}{% for speaker in speakers %}
                   {% if speaker.type == "other" %} 
@@ -200,7 +204,32 @@ layout: base
                       <figure class="parallelogram parallelogram--blue">
                           <svg width="100%" viewBox="0 0 248 296" fill=none xmlns="http://www.w3.org/2000/svg">
                               <path d="M80 0H248L168 296H0L80 0Z" fill="#3EB8FF" /> </svg>
-                          <a href="{{ speaker.link }}" class=image-link target=_blank aria-label="{{ speaker.name }}"><img src="{{ speaker.image }}" /></a>
+                              {% if speaker.link %}
+                              <a href="{{ speaker.link }}" class=image-link target=_blank aria-label="{{ speaker.name }}">
+                                  {% else %}
+                                  <a href="#" class=image-link aria-label="{{ speaker.name }}">
+                                      {% endif %}<img src="{{ speaker.image }}" /></a>
+                      </figure>
+                      <p class=speaker-name>{{ speaker.name }}</p>
+                      <p class=speaker-description>{{ speaker.description }}</p>
+                  </li>
+                  {% endif %}
+                  {% endfor %} 
+              </ul>  
+              <p aria-hidden=true class=speaker-type id=speaker-list-0>Mentors</p>
+              <ul aria-labelledby=speaker-list-0 class=speaker-list>
+                  {% assign speakers = site.speaker %}{% for speaker in speakers %}
+                  {% if speaker.type == "workcamp" %} 
+                  <li>
+                      <figure class="parallelogram parallelogram--blue">
+                          <svg width="100%" viewBox="0 0 248 296" fill=none xmlns="http://www.w3.org/2000/svg">
+                              <path d="M80 0H248L168 296H0L80 0Z" fill="#3EB8FF" /> </svg>
+                              {% if speaker.link %}
+                          <a href="{{ speaker.link }}" class=image-link target=_blank aria-label="{{ speaker.name }}">
+                              {% else %}
+                              <a href="#" class=image-link aria-label="{{ speaker.name }}">
+                                  {% endif %}
+                              <img src="{{ speaker.image }}" /></a>
                       </figure>
                       <p class=speaker-name>{{ speaker.name }}</p>
                       <p class=speaker-description>{{ speaker.description }}</p>
