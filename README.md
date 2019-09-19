@@ -9,8 +9,6 @@ Submit [issues](https://github.com/officialnosk/new/issues/new) and [pull reques
 #### Goals
 
 - Demystify open source terminology
-- Showcase the class members to promote connections and sharing between individuals
-- Starting with git and GitHub
 - Whatever best, you can think off
 
 #### Under the Hood
@@ -33,7 +31,7 @@ You can take all the files of this site and run them 'just' on your computer as 
 * [Ruby](https://www.ruby-lang.org/en/)
 * [Git](http://git-scm.com/)
 
-Should you face any problem, feel free to ping [Ashish](https://github.com/MegaMind98) or [Nischal](https://github.com/NischalLalShrestha).
+Should you face any problem, feel free to ping [Ashish](https://github.com/MegaMind98) or [Nischal](https://github.com/theOnlyNischal).
 
 To copy the repository's files from here onto your computer and to view and serve those files locally, at your computer's command line type:
 
