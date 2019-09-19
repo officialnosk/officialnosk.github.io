@@ -1,8 +1,8 @@
 ---
 name: "Sagar Devkota"
-description: "Independent Developer" 
+description: "Game Developer, Time and Update" 
 image: "/images/noimage.png"
-link: https://devkotasagar.com.np
+link: https://timeandupdate.com/author/devkota/
 type: "workcamp"
 layout: profile
 ---
