@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="512" height="512" id="svg2985" version="1.1" inkscape:version="0.48.5 r10040" sodipodi:docname="logo-telegram.svg" class="TridactylThemeDark">
+  <defs id="defs2987"/>
+  <sodipodi:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageopacity="1" inkscape:pageshadow="2" inkscape:zoom="0.69191503" inkscape:cx="256" inkscape:cy="253.00676" inkscape:document-units="px" inkscape:current-layer="layer5" showgrid="false" inkscape:window-width="1024" inkscape:window-height="721" inkscape:window-x="-4" inkscape:window-y="-4" inkscape:window-maximized="1" width="512px"/>
+  <metadata id="metadata2990">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <dc:title/>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g inkscape:label="Calque 1" inkscape:groupmode="layer" id="layer1" transform="translate(0,-540.36216)"/>
+  <g inkscape:groupmode="layer" id="layer4" inkscape:label="Logo" style="display:inline">
+    <path sodipodi:type="arc" style="fill:#259bd7;fill-opacity:1;stroke:none" id="path3805" sodipodi:cx="255.35715" sodipodi:cy="304.5" sodipodi:rx="105.35714" sodipodi:ry="105.35714" d="m 360.71429,304.5 a 105.35714,105.35714 0 1 1 -210.71428,0 105.35714,105.35714 0 1 1 210.71428,0 z" transform="matrix(2.2338148,0,0,2.2397144,-314.42057,-425.99303)"/>
+    <path style="fill:#ffffff;stroke:none" d="m 119.21684,264.69757 c 0,0 -6.09569,-5.49004 -5.05843,-8.6716 1.30394,-3.99956 11.56213,-5.05842 11.56213,-5.05842 l 227.6291,-89.60638 c 0,0 8.16958,-2.56716 11.56212,-0.72262 3.88484,2.1122 6.50368,11.5621 6.50368,11.5621 l -45.52582,198.72382 c 0,0 -2.42078,3.62144 -4.33578,4.3358 -3.16766,1.18164 -10.11686,-0.72264 -10.11686,-0.72264 l -59.97846,-46.24844 -37.57686,37.57686 -10.11686,-7.94894 -22.4016,-70.81796 z" id="path4333" inkscape:connector-curvature="0" sodipodi:nodetypes="csccsccscccccc"/>
+  </g>
+  <g inkscape:groupmode="layer" id="layer5" inkscape:label="Ombre" style="display:inline">
+    <path style="fill:#b1c8d3;fill-opacity:1;stroke:none" d="m 182.44716,287.09915 138.74536,-89.96768 5.05842,1.44526 -1.80658,3.97448 -109.84008,99.3619 -5.05842,59.97846 -6.14238,-4.33578 z" id="path4336" inkscape:connector-curvature="0"/>
+    <path style="fill:#88bdd8;fill-opacity:1;stroke:none" d="m 215.68824,302.27443 c 0,1.44526 35.04764,27.0987 35.04764,27.0987 l -35.77028,36.1316 -5.41974,-5.05842 z" id="path4338" inkscape:connector-curvature="0"/>
+  </g>
+<iframe xmlns="http://www.w3.org/1999/xhtml" class="cleanslate hidden" src="telegram_files/commandline.html" id="cmdline_iframe" loading="lazy" style="height: 0px !important;"></iframe></svg:svg>
