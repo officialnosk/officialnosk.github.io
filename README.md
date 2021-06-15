@@ -21,8 +21,8 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 
 
 # 😋 TODO:
-  - 😋 Implement Basic Layout   ✅
-  - 😱 Implement CICD for hosting
+  - 😋 Implement Basic Layout                                       ✅
+  - 😱 Implement CICD for hosting                                   ✅
   - 😀 Fill other sections 
   - 🔖 Implement WYSIWYG for blog
   - 📄 Form setup for events management
