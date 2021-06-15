@@ -22,11 +22,12 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 
 # 😋 TODO:
   - 😋 Implement Basic Layout   ✅
+  - 😱 Implement CICD for hosting
   - 😀 Fill other sections 
   - 🔖 Implement WYSIWYG for blog
-  - 😀 Markdown parser for blog so that one can write blog in md
-  - 😎 Add PWA features
   - 📄 Form setup for events management
+  - 😀 Markdown parser for blog so that one can write blog in md
   - 💌 Add email for queries
+  - 😎 Add PWA features
   - 😁 Disquss for comment in blogs
   - 🧠 And Many more
