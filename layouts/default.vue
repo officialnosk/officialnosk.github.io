@@ -23,12 +23,12 @@ html {
 .dark-mode {
   --page-background: linear-gradient(
     to bottom right,
-    #7c3aed 0%,
-    #6d28d9 50%,
-    #5b21b6 50%,
-    #4c1d95 100%
+    #059669 0%,
+    #047857 50%,
+    #065f46 50%,
+    #064e3b 100%
   );
-  @apply text-white border-white;
+  @apply text-gray-200 border-white;
 }
 
 .light-mode {
@@ -37,10 +37,10 @@ html {
     #a7f3d0 0%,
     #6ee7b7 50%,
     #34d399 50%,
-    #059669 100%
+    #10b981 100%
   );
 
-  @apply text-black;
+  @apply text-gray-800;
 }
 
 body {
