@@ -18,3 +18,15 @@ $ yarn generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
+
+# 😋 TODO:
+  - 😋 Implement Basic Layout   ✅
+  - 😀 Fill other sections 
+  - 🔖 Implement WYSIWYG for blog
+  - 😀 Markdown parser for blog so that one can write blog in md
+  - 😎 Add PWA features
+  - 📄 Form setup for events management
+  - 💌 Add email for queries
+  - 😁 Disquss for comment in blogs
+  - 🧠 And Many more
