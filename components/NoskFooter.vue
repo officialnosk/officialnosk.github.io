@@ -1,7 +1,7 @@
 <template>
   <footer class="w-full mx-auto py-2">
     <div class="flex justify-center items-center">
-      <adisclaimer
+      <a
         v-for="(social, key) in socials"
         :key="key"
         :href="social"
@@ -11,7 +11,7 @@
         class="m-3 md:m-2"
       >
         <nosk-icon v-bind="icons[key]" size="24px" />
-      </adisclaimer>
+      </a>
     </div>
     <div class="flex justify-center items-center">
       <p class="text-xs m-3 md:m-2">Nepal Open Source Klub</p>
