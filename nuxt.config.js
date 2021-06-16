@@ -11,9 +11,10 @@ export default {
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
 
+  loading: { color: '#fff' },
   css: ['~/assets/css/tailwind.css'],
   purgeCSS: {
-    whitelist: ['dark-mode', 'bg-nosk-green-dark'],
+    whitelist: ['dark', 'dark-mode', 'bg-nosk-green-dark'],
   },
 
   plugins: [],
@@ -32,8 +33,18 @@ export default {
   axios: {},
 
   pwa: {
-    manifest: {
+    meta: {
+      name: 'NOSK',
       lang: 'en',
+      description: 'Opening the mind, using open source',
+      ogImage: '~/assests/svg/nosk.svg',
+      ogHost: 'http://nosk.info',
+    },
+    manifest: {
+      name: 'NOSK',
+      short_name: 'Nepal Open Source Klub',
+      description: 'Opening the mind, using open source',
+      theme_color: '#a069e8',
     },
   },
 

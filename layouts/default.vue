@@ -93,26 +93,31 @@ body {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  @apply bg-violet-400;
+  @apply bg-green-400;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  @apply bg-violet-500;
+  @apply bg-green-500;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  @apply bg-violet-500;
+  @apply bg-green-500;
+}
+
+/* Track */
+.dark-mode ::-webkit-scrollbar-track {
+  @apply bg-nosk-default;
 }
 
 /* Handle */
 .dark-mode ::-webkit-scrollbar-thumb {
-  @apply bg-nosk-dark-40;
+  @apply bg-nosk-green-dark;
 }
 
 /* Handle on hover */
 .dark-mode ::-webkit-scrollbar-thumb:hover {
-  @apply bg-nosk-dark-40;
+  @apply bg-nosk-green-dark;
 }
 </style>

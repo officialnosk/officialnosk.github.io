@@ -23,7 +23,7 @@ module.exports = {
     extend: {
       colors: {
         nosk: {
-          default: '#3d1472',
+          default: '#064e3b',
           'dark-20': '#b085e9',
           'dark-40': '#5d01b6',
           'dark-60': '#4e1992',
@@ -140,7 +140,9 @@ module.exports = {
       'responsive',
     ],
     textColor: ['dark', 'dark-hover', 'dark-active', 'hover', 'responsive'],
-    extend: {},
+    extend: {
+      textOpacity: ['dark'],
+    },
   },
   plugins: [require('tailwindcss-dark-mode')()],
 }

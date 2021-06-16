@@ -17,9 +17,9 @@
     >
       <div
         class="
-          bg-violet-400
+          dark:bg-green-800
+          bg-green-300
           md:flex-row
-          dark:bg-nosk
           py-5
           px-3
           md:p-0
@@ -34,8 +34,8 @@
           to="/about"
           class="
             mx-2
-            p-1
             my-2
+            p-1
             md:my-0 md:border-b
             flex
             items-center
@@ -84,9 +84,8 @@
           class="
             mx-2
             my-2
-            md:my-0
             p-1
-            md:border-b
+            md:my-0 md:border-b
             flex
             items-center
             border-black
@@ -102,9 +101,8 @@
           class="
             mx-2
             my-2
-            md:my-0
-            p-2
-            md:border-b
+            p-1
+            md:my-0 md:border-b
             flex
             items-center
             border-black
@@ -167,6 +165,11 @@ export default {
   },
   computed: {
     mode() {
+      if (process.browser) {
+        this.$colorMode.value === this.colors.light.name
+          ? document.documentElement.classList.remove('dark')
+          : document.documentElement.classList.add('dark')
+      }
       return this.$colorMode.value === this.colors.light.name
         ? this.colors.dark
         : this.colors.light
@@ -176,7 +179,7 @@ export default {
         ? [
             {
               effect: 'colorize',
-              color: '#3d1472',
+              color: '#6ee7b7',
             },
           ]
         : []
@@ -222,5 +225,8 @@ export default {
 #nosk-logo:hover {
   box-shadow: 0 0 15px #2da73d;
   transform: scale(1.3);
+}
+.nuxt-link-active {
+  font-weight: 600;
 }
 </style>
