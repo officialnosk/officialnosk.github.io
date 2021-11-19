@@ -1,5 +1,5 @@
 <template>
-  <footer class="w-full mx-auto py-2">
+  <footer class="mx-auto py-2">
     <div class="flex justify-center items-center">
       <a
         v-for="(social, key) in socials"

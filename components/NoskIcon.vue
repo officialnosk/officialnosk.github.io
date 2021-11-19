@@ -6,12 +6,7 @@
     :viewBox="viewBox"
     preserveAspectRatio="xMidYMid"
   >
-    <circle
-      :cx="circle.cx"
-      :cy="circle.cy"
-      :fill="circle.fill"
-      :r="circle.r"
-    ></circle>
+    <circle :cx="circle.cx" :cy="circle.cy" :fill="circle.fill" :r="circle.r" />
     <path :d="path" :fill="fill" />
   </svg>
 </template>

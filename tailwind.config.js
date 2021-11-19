@@ -144,5 +144,8 @@ module.exports = {
       textOpacity: ['dark'],
     },
   },
-  plugins: [require('tailwindcss-dark-mode')()],
+  plugins: [
+    require('tailwindcss-dark-mode'),
+    require('@tailwindcss/typography'),
+  ],
 }
