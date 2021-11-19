@@ -30,7 +30,6 @@
       >
         <nuxt-link
           :class="highlightTab('about')"
-          @click.native="toggleMenu"
           to="/about"
           class="
             mx-2
@@ -42,12 +41,12 @@
             border-black
             dark:border-white
           "
+          @click.native="toggleMenu"
         >
           about
         </nuxt-link>
         <nuxt-link
           :class="highlightTab('members')"
-          @click.native="toggleMenu"
           to="/members"
           class="
             mx-2
@@ -59,15 +58,16 @@
             border-black
             dark:border-white
           "
+          @click.native="toggleMenu"
         >
           members
         </nuxt-link>
         <nuxt-link
           :class="highlightTab('home')"
-          @click.native="toggleMenu"
           to="/"
           class="order-first md:order-none flex items-center my-2 mx-3 md:my-0"
           aria-label="Click to go back to homepage"
+          @click.native="toggleMenu"
         >
           <img
             id="nosk-logo"
@@ -79,7 +79,6 @@
         </nuxt-link>
         <nuxt-link
           :class="highlightTab('articles')"
-          @click.native="toggleMenu"
           to="/blogs"
           class="
             mx-2
@@ -91,12 +90,12 @@
             border-black
             dark:border-white
           "
+          @click.native="toggleMenu"
         >
           blogs
         </nuxt-link>
         <nuxt-link
           :class="highlightTab('resources')"
-          @click.native="toggleMenu"
           to="/resources"
           class="
             mx-2
@@ -108,33 +107,34 @@
             border-black
             dark:border-white
           "
+          @click.native="toggleMenu"
         >
           resources
         </nuxt-link>
         <button
-          @click="toggleMenu"
           aria-label="Close"
           class="absolute top-0 right-0 m-5 md:hidden"
+          @click="toggleMenu"
         >
           <nosk-icon v-bind="close" size="24px" />
         </button>
       </div>
       <div
-        @click="toggleMenu"
         class="bg-gray-800 opacity-75 flex-1 md:hidden"
+        @click="toggleMenu"
       />
     </nav>
     <div class="flex justify-end md:absolute top-0 right-0 m-5">
       <button
-        @click="toggleMenu"
         class="md:hidden mx-3"
         aria-label="Open navigation menu"
+        @click="toggleMenu"
       >
         <nosk-icon v-bind="menu" size="24px" />
       </button>
       <button
-        @click="$colorMode.preference = mode.name"
         :aria-label="`${mode.name} Mode`"
+        @click="$colorMode.preference = mode.name"
       >
         <nosk-icon v-bind="mode.icon" size="24px" />
       </button>

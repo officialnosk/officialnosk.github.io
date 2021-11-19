@@ -1,5 +1,5 @@
 <template>
-  <div class="h-full flex flex-col bg-nosk-main-light">
+  <div class="flex flex-col min-h-screen bg-nosk-main-light">
     <nosk-header />
     <nuxt class="flex-1" />
     <nosk-footer />
@@ -7,16 +7,15 @@
 </template>
 
 <style>
+.min-h-screen {
+  min-height: 100vh;
+}
+
 :root {
   word-spacing: 1px;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
 }
 
 html {
-  height: 100%;
   @apply font-display text-md box-border text-white;
 }
 
@@ -39,14 +38,13 @@ html {
     #34d399 50%,
     #10b981 100%
   );
-
   @apply text-gray-800;
 }
 
 body {
+  overflow-x: hidden;
   background: var(--page-background);
-  overflow: hidden;
-  height: 100%;
+  background-attachment: fixed;
 }
 
 *,
@@ -64,8 +62,7 @@ body {
 #__nuxt {
   @apply h-full;
 }
-</style>
-<style>
+
 .nuxt-content * {
   @apply mb-3;
 }
@@ -73,8 +70,7 @@ body {
 .nuxt-content a {
   @apply underline;
 }
-</style>
-<style>
+
 .page-enter-active,
 .page-leave-active {
   transition-property: opacity;
@@ -84,40 +80,5 @@ body {
 .page-enter,
 .page-leave-to {
   opacity: 0;
-}
-</style>
-<style>
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  @apply bg-green-400;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  @apply bg-green-500;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  @apply bg-green-500;
-}
-
-/* Track */
-.dark-mode ::-webkit-scrollbar-track {
-  @apply bg-nosk-default;
-}
-
-/* Handle */
-.dark-mode ::-webkit-scrollbar-thumb {
-  @apply bg-nosk-green-dark;
-}
-
-/* Handle on hover */
-.dark-mode ::-webkit-scrollbar-thumb:hover {
-  @apply bg-nosk-green-dark;
 }
 </style>
