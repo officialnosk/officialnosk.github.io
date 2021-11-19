@@ -28,7 +28,7 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
   - 📄 Form setup for events management
   - 😀 Markdown parser for blog so that one can write blog in md
   - 💌 Add email for queries
-  - 😎 Add PWA features
+  - 😎 Add PWA features                                             ✅
   - 😁 Disquss for comment in blogs
   - 🧠 And Many more
 
